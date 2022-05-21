@@ -15,13 +15,17 @@ class pic2Activity : AppCompatActivity() {
 
         btnPrevious=findViewById(R.id.btnPrevious)
         btnPrevious.setOnClickListener {
-            var intent= Intent(this,MainActivity::class.java)
+            var intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
 
         }
         btnNext=findViewById(R.id.btnNext)
         btnNext.setOnClickListener {
             var intent= Intent(this,picActivity3::class.java)
+            startActivity(intent)
 
-    }
+
+
+        }
 }
 }

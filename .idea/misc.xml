@@ -5,6 +5,10 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="app/src/main/res/layout/activity_pic2.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_pic3.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pic4.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_pic5.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_pict4.xml" value="0.19375" />
       </map>
     </option>
   </component>

@@ -5,28 +5,25 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class picActivity3 : AppCompatActivity() {
-    lateinit var btnPrevious1:Button
-    lateinit var btnNext1:Button
-
+class Pict4Activity : AppCompatActivity() {
+    lateinit var btnPrevious2:Button
+    lateinit var btnNext2:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pic3)
+        setContentView(R.layout.activity_pict4)
 
-        btnPrevious1=findViewById(R.id.btnPrevious1)
-        btnPrevious1.setOnClickListener {
-            var intent = Intent(this,pic2Activity::class.java)
+        btnPrevious2=findViewById(R.id.btnPrevious2)
+        btnPrevious2.setOnClickListener {
+            var intent = Intent(this,picActivity3::class.java)
             startActivity(intent)
-
-
-
         }
-        btnNext1 =findViewById(R.id.btnNext1    )
-        btnNext1.setOnClickListener {
+        btnNext2 =findViewById(R.id.btnNext2)
+        btnNext2.setOnClickListener {
             var intent= Intent(this,Pict4Activity::class.java)
             startActivity(intent)
 
         }
+
 }
 
 
